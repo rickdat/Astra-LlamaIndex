@@ -24,6 +24,10 @@ You need to have Python installed (preferably Python 3.6 or higher). Libraries l
 ### Installation
 
 ```bash
+Clone the repo
+```
+
+```bash
 pip install llama_astra
 ```
 
