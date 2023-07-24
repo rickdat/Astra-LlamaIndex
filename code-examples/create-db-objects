@@ -8,10 +8,10 @@ logging.getLogger().addHandler(logging.StreamHandler(stream=sys.stdout))
 from AstraLlamaIndex import SimpleAstraReader
 
 
-openai.api_key = "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"
-bundle_path = "C:/Users/RickValdes/Documents/Work/AstraLlama/cnn/secure-connect-vectorsearch.zip"
-client_id = "PiypKtyffLFxiTNFRIelXPyB"
-client_secret = "+9cbiZMAN+ZpK+cLLDwb,gu6RA2.Ft+eositgiAUvjwCgn-P1w7EgE6UIUhO4XNaX2j2XbOf7nm+DMz0tl1.ND-iaeM3XyBDwy1_jzyJs+v-8,xc-E2GQYorzHNJi73K"
+openai.api_key = ""
+bundle_path = ""
+client_id = ""
+client_secret = ""
 keyspace = "vsearch"
 
 # Create your table
