@@ -14,8 +14,8 @@ openai.api_key = ""
 bundle_path = ""
 client_id = ""
 client_secret = ""
-keyspace = ""
-table = ""
+keyspace = "vsearch"
+table = "products"
 query = ""  # If no custom query, leave it as empty string
 
 reader = SimpleAstraReader(bundle_path, client_id, client_secret, keyspace, table, vector_column="item_vector", vector_value='0.15, 0.1, 0.1, 0.35, 0.55', vector_count=1)
