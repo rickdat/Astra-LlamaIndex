@@ -13,7 +13,7 @@ The library also provides tools to auto-generate CQL queries from natural langua
 * Automatically Generate Queries from Natural Language: The library can auto-generate CQL queries based on user's natural language input.
 * Ingest Data: Easily ingest data into your Astra Database.
 
-Check the [source code of the library here]([https://github.com/username/projectname](https://github.com/rickdat/Astra-LlamaIndex/blob/main/astra-llamaindex-library.py)).
+Check the [source code of the library here]([https://github.com/username/projectname](https://github.com/rickdat/Astra-LlamaIndex/blob/main/astra-llamaindex-library.py).
 
 ## Getting Started
 
