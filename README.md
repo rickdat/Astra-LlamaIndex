@@ -65,14 +65,14 @@ To insert vector data, you can use the `insert_vectors(vectors)` method.
 data_insert.insert_vectors(your_vectors_dictionary)
 ```
 
-For more detailed examples, please visit [here]([https://github.com/username/projectname/examples](https://github.com/rickdat/Astra-LlamaIndex/tree/main/code-examples)).
+For more detailed examples, please visit [here]([https://github.com/username/projectname/examples](https://github.com/rickdat/Astra-LlamaIndex/tree/main/code-examples).
 
 ## Example Files
-The [examples]([https://github.com/username/projectname/examples](https://github.com/rickdat/Astra-LlamaIndex/tree/main/code-examples)) directory includes several examples that demonstrate the usage of LlamaAstra.
+The [examples]([https://github.com/username/projectname/examples](https://github.com/rickdat/Astra-LlamaIndex/tree/main/code-examples) directory includes several examples that demonstrate the usage of LlamaAstra.
 
 
 ## Issues
-If you encounter any issues, please report them at our [issue tracker]([https://github.com/username/projectname/issues](https://github.com/rickdat/Astra-LlamaIndex/issues)).
+If you encounter any issues, please report them at our [issue tracker]([https://github.com/username/projectname/issues](https://github.com/rickdat/Astra-LlamaIndex/issues).
 
 ## License
 LlamaAstra is available under the [MIT License](https://github.com/username/projectname/LICENSE.md).
