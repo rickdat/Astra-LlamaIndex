@@ -76,9 +76,13 @@ class SimpleAstraReader(BaseReader):
         Returns a list of documents.
         """
         if not query:
+            query = self.custom_query
+        if not query:
             query = f"SELECT * FROM {self.keyspace}.{self.table};"
         documents = []
         try:
+            query=SimpleStatement(query,
+            consistency_level=ConsistencyLevel.LOCAL_QUORUM)
             cursor = self.session.execute(query)
             print(cursor)
             for item in cursor:
@@ -123,8 +127,8 @@ class SimpleAstraReader(BaseReader):
                 columns = ', '.join(data.keys())
                 values = ', '.join([f"'{v}'" if isinstance(v, str) else str(v) for v in data.values()])
                 insert_query = f"INSERT INTO {self.keyspace}.{self.table} (id, {columns}) VALUES ({row_id}, {values});"
-                self.session.execute(insert_query)
                 print(insert_query)
+                self.execute_query(self, query=insert_query)
             logger.info("Vectors inserted successfully.{insert_query}")
         except Exception as e:
             print(insert_query)
