@@ -1,4 +1,4 @@
-# New Python Library: LlamaAstra API 
+# LlamaAstra Library 
 
 ## Overview
 This Python library called **LlamaAstra**, an extension to LlamaIndex, allows you to seamlessly connect to [DataStax's Astra](https://www.datastax.com/products/datastax-astra) Databases. It empowers your applications with the capabilities to perform vector search, generate and execute custom queries. 
