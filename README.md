@@ -13,7 +13,7 @@ The library also provides tools to auto-generate CQL queries from natural langua
 * Automatically Generate Queries from Natural Language: The library can auto-generate CQL queries based on user's natural language input.
 * Ingest Data: Easily ingest data into your Astra Database.
 
-Check the [source code of the library here](https://github.com/username/projectname).
+Check the [source code of the library here]([https://github.com/username/projectname](https://github.com/rickdat/Astra-LlamaIndex/blob/main/astra-llamaindex-library.py)).
 
 ## Getting Started
 
@@ -21,20 +21,20 @@ Check the [source code of the library here](https://github.com/username/projectn
 
 You need to have Python installed (preferably Python 3.6 or higher). Libraries like openAI, llama_index, IPython and the cassandra-driver also need to be installed. 
 
-### Installation
+### Get Started
 
 ```bash
-Clone the repo
+git clone https://github.com/rickdat/Astra-LlamaIndex
 ```
 
 ```bash
-pip install llama_astra
+pip install cassandra-driver, openai, llama-index
 ```
 
 ## Usage
 First, import the library as shown below:
 ```python
-from NewLlamaIndexAstraIntegration import SimpleAstraReader
+from astra-llamaindex-library import SimpleAstraReader
 ```
 
 ### Establish Connection
@@ -55,7 +55,7 @@ documents = reader.load_data(your_query)
 To generate a CQL query from the user's natural language input, call the `query_generator()` methods. 
 
 ```python
-generate= SimpleAstraReader(bundle_path, client_id, client_secret, keyspace, table, vector_column,user_input="your query in natural language")
+generate= SimpleAstraReader(bundle_path, client_id, client_secret, keyspace, user_input="your query in natural language")
 print(generate.query_generator())
 ```
 ### Insert Vectors into Database
@@ -65,16 +65,11 @@ To insert vector data, you can use the `insert_vectors(vectors)` method.
 data_insert.insert_vectors(your_vectors_dictionary)
 ```
 
-For more detailed examples, please visit [here](https://github.com/username/projectname/examples).
+For more detailed examples, please visit [here]([https://github.com/username/projectname/examples](https://github.com/rickdat/Astra-LlamaIndex/tree/main/code-examples)).
 
 ## Example Files
-The [examples](https://github.com/username/projectname/examples) directory includes several examples that demonstrate the usage of LlamaAstra.
+The [examples]([https://github.com/username/projectname/examples](https://github.com/rickdat/Astra-LlamaIndex/tree/main/code-examples)) directory includes several examples that demonstrate the usage of LlamaAstra.
 
-## Documentation
-For more detailed documentation, refer to the [official documentation here](https://github.com/username/projectname/docs).
-
-## Contributing
-We welcome all contributors! Please read our [contributing guide](https://github.com/username/projectname/CONTRIBUTING.md) for more details on how to get started.
 
 ## Issues
 If you encounter any issues, please report them at our [issue tracker](https://github.com/username/projectname/issues).
