@@ -12,7 +12,7 @@ openai.api_key = ""
 bundle_path = ""
 client_id = ""
 client_secret = ""
-keyspace = ""
+keyspace = "vsearch"
 
 # Create your table
 cql_command = "CREATE TABLE IF NOT EXISTS vsearch.products (id int PRIMARY KEY,name TEXT, description TEXT, item_vector VECTOR<FLOAT, 5>);"  # If no custom query, leave it as empty string
