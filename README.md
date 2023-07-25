@@ -72,7 +72,7 @@ The [examples]([https://github.com/username/projectname/examples](https://github
 
 
 ## Issues
-If you encounter any issues, please report them at our [issue tracker](https://github.com/username/projectname/issues).
+If you encounter any issues, please report them at our [issue tracker]([https://github.com/username/projectname/issues](https://github.com/rickdat/Astra-LlamaIndex/issues)).
 
 ## License
 LlamaAstra is available under the [MIT License](https://github.com/username/projectname/LICENSE.md).
