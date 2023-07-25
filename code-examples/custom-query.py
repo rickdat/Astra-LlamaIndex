@@ -11,11 +11,11 @@ from IPython.display import Markdown, display
 from AstraLlamaIndex import SimpleAstraReader
 import os
 
-openai.api_key = "open ai key"
-bundle_path = "you bundle path"
-client_id = "astra db id"
-client_secret = "astra db secret"
-keyspace = "your keyspace name"
+openai.api_key = ""
+bundle_path = ""
+client_id = ""
+client_secret = ""
+keyspace = "vsearch"
 query = "SELECT * FROM vsearch.products ORDER BY item_vector ANN OF [0.15, 0.1, 0.1, 0.35, 0.55] LIMIT 1;"  # If no custom query, leave it as empty string
 
 reader = SimpleAstraReader(bundle_path, client_id, client_secret, keyspace)
