@@ -37,7 +37,7 @@ Import the library as shown below:
 from astra-llamaindex-library import SimpleAstraReader
 ```
 
-##
+## Code Review
 Code explanation can be found [here](https://github.com/rickdat/Astra-LlamaIndex/blob/main/docs/usage.md)
 
 ## Code Examples
